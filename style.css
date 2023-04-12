@@ -15,17 +15,16 @@
 
 aside {
   height: 100vh;
+  width: 20vw;
   border-right: 0.1px solid var(--clr-secondary);
 }
 .profile {
   display: flex;
-  /* border: 2px solid darkblue; */
-
   padding: 5px 0;
 }
 .profile img {
   background-color: var(--yellow);
-  width: 80px;
+  width: 100px;
   border-radius: 40px;
   padding: 5px;
 }
@@ -46,7 +45,7 @@ img {
   color: var(--clr-secondary);
 }
 .nav-link i {
-  color: var(--clr-secondary);
+  color: var(--white);
 }
 .navbar-nav .nav-link {
   padding-left: 15px !important;
