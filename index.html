@@ -15,14 +15,61 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <!-- font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- custom style -->
     <link rel="stylesheet" href="style.css" />
 
     <title>Dashboard</title>
   </head>
   <body>
-    <h1>Dashoboard</h1>
-
+    <div class="container-fluid bg">
+      <div class="row">
+        <aside
+          class="d-flex flex-column justify-content-start align-items-center px-5 col-md-3"
+        >
+          <h2 class="text-white mt-5">Figma</h2>
+          <div
+            class="profile d-flex flex-column justify-content-center align-items-center my-4 bg-transparent"
+          >
+            <img src="img/ali.png" alt="ali" />
+            <p class="mt-2 text-white">Ehtisham Ali</p>
+            <button>Edit</button>
+          </div>
+          <nav>
+            <ul class="navbar-nav text-white mt-2">
+              <li class="nav-item">
+                <a class="nav-link" href="#index.html"
+                  ><i class="p-2 fa-solid fa-wrench"></i> Dashboard</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mt-2" href="#activity"
+                  ><i class="p-2 fa-solid fa-wrench"></i> Actitvy</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mt-2" href="#schedule"
+                  ><i class="p-2 fa-solid fa-wrench"></i> Schedule</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mt-2" href="#setting"
+                  ><i class="p-2 fa-solid fa-wrench"></i> Setting</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </aside>
+        <main></main>
+      </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
