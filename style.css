@@ -5,7 +5,9 @@
 }
 :root {
   --clr-primary: rgb(36, 37, 41);
-  --clr-secondary: rgb(178, 172, 167);
+  --clr-secondary: rgb(54, 56, 62);
+  --clr-bg-gray: rgb(220, 220, 220);
+  --active-gray: rgb(178, 172, 167);
   --yellow: rgb(255, 243, 122);
   --white: rgb(255, 255, 255);
 }
@@ -16,7 +18,7 @@
 aside {
   height: 100vh;
   width: 20vw;
-  border-right: 0.1px solid var(--clr-secondary);
+  border-right: 0.1px solid var(--active-gray);
 }
 .profile {
   display: flex;
@@ -31,7 +33,7 @@ aside {
 button {
   color: var(--white);
   background-color: transparent;
-  border: 2px solid var(--clr-secondary);
+  border: 2px solid var(--active-gray);
   border-radius: 15px;
   margin-top: -10px;
   padding: 0 12px;
@@ -42,7 +44,7 @@ img {
   cursor: pointer;
 }
 .nav-link {
-  color: var(--clr-secondary);
+  color: var(--active-gray);
 }
 .nav-link i {
   color: var(--white);
