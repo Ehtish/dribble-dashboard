@@ -14,7 +14,9 @@
 .bg {
   background-color: var(--clr-primary);
 }
-
+h2 {
+  color: var(--white);
+}
 aside {
   height: 100vh;
   width: 20vw;
@@ -60,4 +62,69 @@ img {
 }
 button:hover {
   border-color: var(--white);
+}
+main {
+  margin-top: 43px;
+}
+.search {
+  background: transparent;
+  text-align: left;
+  color: white;
+  /* background-color: #5453534a; */
+  background-color: var(--clr-secondary);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 80px 10px 15px;
+  margin: 5px 15px -4px 276px;
+}
+.header button {
+  margin-top: 10px;
+}
+.btn-yellow {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 15px;
+  background-color: var(--yellow);
+  color: rgb(0, 0, 0);
+}
+.btn-notification {
+  color: var(--white);
+  border: 2px solid var(--active-gray);
+  border-radius: 8px;
+  padding: 8px 15px;
+  background-color: transparent;
+}
+/* .btn-yellow:hover {
+  background-color: rgba(255, 244, 122, 0.913);
+} */
+.search:focus {
+  outline: none;
+}
+.parent-card {
+  gap: 1rem;
+}
+.card {
+  width: 17.6rem;
+  padding: 5px 10px;
+  background-color: var(--clr-secondary);
+  color: white;
+}
+.card-body {
+  padding: 1rem;
+}
+.card-title {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-yellow:hover {
+  background-color: rgba(255, 244, 122, 0.787);
+}
+/* utlility classes  */
+.bg-yellow {
+  background-color: var(--yellow);
+  color: var(--clr-primary);
+}
+.bg-light-gray {
+  background-color: var(--active-gray);
+  color: var(--clr-primary);
 }
