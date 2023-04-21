@@ -1,2 +1,2 @@
 # dribble-dashboard
-Live url: [https://ehtish.github.io/dribble-dashboard/]
+Live url: [dashboard][https://ehtish.github.io/dribble-dashboard/]
