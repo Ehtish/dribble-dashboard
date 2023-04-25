@@ -18,8 +18,8 @@
     <!-- font awesome link -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
@@ -32,7 +32,7 @@
     <div class="container-fluid bg">
       <div class="row">
         <aside
-          class="d-flex flex-column justify-content-start align-items-center col-md-2"
+          class="col-lg-2 col-md-2 col-sm-4 d-flex flex-column justify-content-start align-items-center"
         >
           <h2 class="mt-5">Figma</h2>
           <div
@@ -46,22 +46,22 @@
             <ul class="navbar-nav text-white mt-2">
               <li class="nav-item">
                 <a class="nav-link" href="#index.html"
-                  ><i class="p-2 fa-solid fa-wrench"></i> Dashboard</a
+                  ><i class="p-2 fa fa-objects-column"></i> Dashboard</a
                 >
               </li>
               <li class="nav-item">
                 <a class="nav-link mt-2" href="#activity"
-                  ><i class="p-2 fa-solid fa-wrench"></i> Actitvy</a
+                  ><i class="p-2 mr-1 fa fa-file-lines"></i> Actitvy</a
                 >
               </li>
               <li class="nav-item">
                 <a class="nav-link mt-2" href="#schedule"
-                  ><i class="p-2 fa-solid fa-wrench"></i> Schedule</a
+                  ><i class="p-2 mr-1 fa fa-calendar"></i> Schedule</a
                 >
               </li>
               <li class="nav-item">
                 <a class="nav-link mt-2" href="#setting"
-                  ><i class="p-2 fa-solid fa-wrench"></i> Setting</a
+                  ><i class="p-2 mr-1 fa fa-sliders"></i> Setting</a
                 >
               </li>
             </ul>
@@ -77,86 +77,93 @@
             <label class="custom-control-label" for="customSwitch1"></label>
           </div> -->
         </aside>
-        <main class="col-md-9">
+        <main class="col-lg-9 col-md-9 col-sm-8">
           <!-- header start  -->
-          <div class="header container d-flex align-items-center">
+          <div class="header d-flex">
             <h2 class="mt-2 ml-5">Statistics</h2>
+            <form class="ml-auto" action="">
+              <input
+                type="text"
+                class="search mt-1"
+                placeholder="Search Something..."
+              />
 
-            <input
-              type="text"
-              class="search mt-1"
-              placeholder="Search Something..."
-            />
-
-            <button class="btn-yellow mx-3">Upgrade</button>
-            <button class="btn-notification">
-              <i class="fa fa-solid fa-wrench"></i>
-            </button>
+              <button class="btn-yellow mx-3">Upgrade</button>
+              <button class="btn-notification">
+                <i class="fa fa-bell"></i>
+              </button>
+            </form>
           </div>
           <!-- header end  -->
 
           <!-- card start  -->
-          <div
-            class="parent-card container-fluid d-flex justify-content-center align-items-center flex-wrap mt-5 mb-2"
-          >
-            <div class="card bg-yellow">
-              <div class="card-body">
-                <h5 class="card-title">Website Traffic <small>More</small></h5>
-                <p class="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </p>
-                <button href="#" class="btn-yellow">Go somewhere</button>
+          <div class="parent-card container mt-5 mb-2">
+            <div class="row">
+              <div class="card bg-yellow col-lg-4 col-md-6 col-sm-12 m-2">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Website Traffic <small>More</small>
+                  </h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <button href="#" class="btn-yellow">Go somewhere</button>
+                </div>
               </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Full report <small>/2023</small></h5>
-                <p class="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </p>
-                <button href="#" class="btn-yellow">Go somewhere</button>
+              <div class="card col-lg-4 col-md-6 col-sm-12 m-2">
+                <div class="card-body">
+                  <h5 class="card-title">Full report <small>/2023</small></h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <button href="#" class="btn-yellow">Go somewhere</button>
+                </div>
               </div>
-            </div>
-            <div class="card bg-light-gray">
-              <div class="card-body">
-                <h5 class="card-title">Bounce rate <small>up arrow</small></h5>
-                <p class="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </p>
-                <button href="#" class="btn-yellow">Go somewhere</button>
+              <div class="card bg-light-gray col-lg-4 col-md-6 col-sm-12 m-2">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Bounce rate <small>up arrow</small>
+                  </h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <button href="#" class="btn-yellow">Go somewhere</button>
+                </div>
               </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">ROI <small>Details</small></h5>
-                <p class="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </p>
-                <button href="#" class="btn-yellow">Go somewhere</button>
+              <div class="card col-lg-4 col-md-6 col-sm-12 m-2">
+                <div class="card-body">
+                  <h5 class="card-title">ROI <small>Details</small></h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <button href="#" class="btn-yellow">Go somewhere</button>
+                </div>
               </div>
-            </div>
-            <div class="card bg-light-gray">
-              <div class="card-body">
-                <h5 class="card-title">Website Traffic <small>More</small></h5>
-                <p class="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </p>
-                <button href="#" class="btn-yellow">Go somewhere</button>
+              <div class="card bg-light-gray col-lg-4 col-md-6 col-sm-12 m-2">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Website Traffic <small>More</small>
+                  </h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <button href="#" class="btn-yellow">Go somewhere</button>
+                </div>
               </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Customer Rate</h5>
-                <p class="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </p>
-                <button href="#" class="btn-yellow">Go somewhere</button>
+              <div class="card col-lg-4 col-md-6 col-sm-12 m-2">
+                <div class="card-body">
+                  <h5 class="card-title">Customer Rate</h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <button href="#" class="btn-yellow">Go somewhere</button>
+                </div>
               </div>
             </div>
           </div>

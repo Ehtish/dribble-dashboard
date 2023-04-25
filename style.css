@@ -75,7 +75,7 @@ main {
   border: none;
   border-radius: 8px;
   padding: 10px 80px 10px 15px;
-  margin: 5px 15px -4px 276px;
+  /* margin: 5px 15px -4px 276px; */
 }
 .header button {
   margin-top: 10px;
@@ -100,9 +100,7 @@ main {
 .search:focus {
   outline: none;
 }
-.parent-card {
-  gap: 1rem;
-}
+
 .card {
   width: 17.6rem;
   padding: 5px 10px;
@@ -127,4 +125,22 @@ main {
 .bg-light-gray {
   background-color: var(--active-gray);
   color: var(--clr-primary);
+}
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    /* justify-content: center; */
+  }
+  .header h2 {
+    text-align: center;
+  }
+}
+@media (max-width: 520px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .header h2 {
+    text-align: center;
+  }
 }
